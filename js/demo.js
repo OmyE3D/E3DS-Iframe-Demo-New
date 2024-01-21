@@ -100,7 +100,6 @@ function switchTo(val) {
 	//emitUIInteraction(descriptor);
 	let obj ={
 			cmd: "sendToUe4",
-			type: "testType",
 			value: descriptor,
 	};
 	sendToMainPage(obj)
